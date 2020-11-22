@@ -1,0 +1,166 @@
+button{
+    width: 100%;
+}
+
+body {
+    background-color: rgb(132, 89, 111);
+}
+
+.a {
+    display: table;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.logo-container{
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+
+.botao-cadastro{
+    margin-top: 10px;
+}
+
+.cor-fundo{
+    background-color: rgb(207, 161, 185);
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+
+.botaoCadastro{
+    margin:0 auto;
+    display:block;
+    width: 200px;
+}
+
+.icone-link :hover{
+    cursor: pointer;
+}
+
+.apresentacao{
+    padding: 50px;
+    height: 50%;
+    margin-bottom: 10px;
+
+}
+
+.header {
+    background: black;
+    height: 40px;
+}
+
+.menu{
+    background: rgb(99, 67, 83);
+    
+}
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.filho-center{
+    margin: 0 auto;
+}
+
+.titulo{
+    margin-bottom: 50px;
+}
+
+.mais-produtos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.produtos{
+    margin-top: 100px;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.div-produtos{
+    margin-right: auto;
+    width: 100%;
+    background-color: white;
+}
+.video-demonstracao{
+    margin-top: 100px;
+    /*background-color: pink;*/
+    margin: auto;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.div-video-container{
+    width: 600px;
+}
+
+.div-video-demo{
+    width: 100%;
+}
+
+
+
+.div-depoimento{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.cabecalho{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.contato{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-contato{
+    text-align: center;
+    margin: 20px;
+}
+
+.itens-cabecalho{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    
+    .banner{
+        margin: auto;
+    }
+    
+    .itens-header{
+        margin: 0 auto;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .icones-header{
+        margin-right: 100px;
+        margin-top: 0;
+    }
+
+}
