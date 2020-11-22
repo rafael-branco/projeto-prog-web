@@ -1,0 +1,199 @@
+.cor-fundo{
+    background-color: rgb(207, 161, 185);
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+
+.botaoCadastro{
+    margin:0 auto;
+    display:block;
+    width: 200px;
+}
+
+.icone-link :hover{
+    cursor: pointer;
+}
+
+.apresentacao{
+    padding: 50px;
+    height: 50%;
+    margin-bottom: 10px;
+
+}
+
+.header {
+    background: black;
+    height: 40px;
+}
+
+.menu{
+    background: rgb(99, 67, 83);
+    
+}
+
+.center {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.filho-center{
+    margin: 0 auto;
+}
+
+.titulo{
+    margin-bottom: 50px;
+}
+
+.mais-produtos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.div-map{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.card-map{
+    border: none;
+}
+
+#map{
+    float: right;
+	width: 300px;
+	height: 300px;
+	background-color: #ddd;
+}
+
+.div-card{
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    float: left;
+    margin: 5px;
+}
+
+.div-img{
+    width: 100%;
+    height: 70%;
+}
+
+.div-img img{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    border-radius: 4px;
+    color: white;
+}
+.produtos{
+    margin-top: 100px;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+.div-produtos{
+    margin-right: auto;
+    width: 100%;
+    background-color: white;
+}
+.video-demonstracao{
+    margin-top: 100px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.div-video-container{
+    width: 100%;
+}
+
+.div-video-block{
+    width: 600px;
+    margin: auto;
+}
+
+.div-video-demo{
+    width: 100%;
+}
+
+
+
+.div-depoimento{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.cabecalho{
+    text-align: center;
+    width: 100%;
+    background-color: white;
+}
+
+.contato-map{
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.contato{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-contato{
+    text-align: center;
+    margin: 20px;
+}
+
+.itens-cabecalho{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .div-video-block{
+        width: auto;
+        height: 200px;
+        margin: auto;
+    }
+    
+    .banner{
+        margin: auto;
+    }
+    
+    .itens-header{
+        margin: 0 auto;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .icones-header{
+        margin-right: 100px;
+        margin-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .card-produto{
+        
+    }
+}
+
